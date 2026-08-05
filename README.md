@@ -75,7 +75,7 @@ pip install keyboard
 Clone the repository:
 
 ```bash
-git clone https://github.com/USERNAME/Bengali-Keyboard-Mapper.git
+git clone https://github.com/ankit8240/English_to_Bengali_dictionary.git
 ```
 
 Navigate into the project:
