@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🔤 Bengali Keyboard Mapper
+#  Bengali Keyboard Mapper
 
 
 *A configurable keyboard remapping engine that captures global keyboard events and instantly converts English keystrokes into Bengali Unicode characters.*
