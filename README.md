@@ -2,12 +2,6 @@
 
 # 🔤 Bengali Keyboard Mapper
 
-### A lightweight **Input Method Engine (IME)** for seamless English → Bengali typing in real time.
-
-![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Platform](https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
-![Open Source](https://img.shields.io/badge/Open%20Source-Yes-orange?style=for-the-badge)
 
 *A configurable keyboard remapping engine that captures global keyboard events and instantly converts English keystrokes into Bengali Unicode characters.*
 
