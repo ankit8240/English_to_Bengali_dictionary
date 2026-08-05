@@ -6,7 +6,6 @@
 
 ![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Platform](https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
 ![Open Source](https://img.shields.io/badge/Open%20Source-Yes-orange?style=for-the-badge)
 
@@ -16,17 +15,17 @@
 
 ---
 
-## 📖 Overview
+# 📖 Overview
 
 **Bengali Keyboard Mapper** is a Python-based Input Method Engine (IME) that enables users to type Bengali characters using a standard English keyboard.
 
-Instead of changing your operating system's keyboard layout, the application intercepts keyboard events globally and translates keystrokes according to a customizable mapping file.
+Instead of changing your operating system's keyboard layout, the application intercepts global keyboard events and translates keystrokes according to a customizable mapping file.
 
 Designed to be lightweight, fast, and easily extensible, it provides a smooth typing experience while preserving common keyboard shortcuts.
 
 ---
 
-## ✨ Features
+# ✨ Features
 
 - 🌐 **Global Keyboard Hooking**
   - Captures keyboard input system-wide.
@@ -34,32 +33,31 @@ Designed to be lightweight, fast, and easily extensible, it provides a smooth ty
 - ⚡ **Real-Time Translation**
   - Converts English characters into Bengali instantly.
 
-- 📝 **Custom Mapping**
-  - Fully configurable using `map.txt`.
+- 📝 **Custom Character Mapping**
+  - Configure the keyboard layout using `map.txt`.
 
 - 🔤 **Unicode Support**
-  - Supports UTF-8 Bengali characters.
+  - Supports UTF-8 encoded Bengali characters.
 
 - 🎛️ **Modifier Key Handling**
-  - Preserves `Ctrl` shortcuts like `Ctrl+C`, `Ctrl+V`, etc.
+  - Preserves common shortcuts such as `Ctrl+C`, `Ctrl+V`, and `Ctrl+X`.
 
-- 🚀 **Lightweight**
-  - Minimal resource consumption.
+- 🚀 **Lightweight & Fast**
+  - Minimal resource usage with instant character translation.
 
 - 🛑 **Graceful Exit**
-  - Press **ESC** anytime to stop the application.
+  - Press **ESC** at any time to stop the application.
 
 ---
 
 # 📂 Project Structure
 
-```
+```text
 Bengali-Keyboard-Mapper/
 │
 ├── bengali_mapper.py      # Main application
 ├── map.txt                # English → Bengali mapping
 ├── requirements.txt
-├── LICENSE
 └── README.md
 ```
 
@@ -70,7 +68,7 @@ Bengali-Keyboard-Mapper/
 - Python 3.8+
 - keyboard library
 
-Install dependencies
+Install the required dependency:
 
 ```bash
 pip install keyboard
@@ -80,25 +78,25 @@ pip install keyboard
 
 # 🚀 Installation
 
-Clone the repository
+Clone the repository:
 
 ```bash
 git clone https://github.com/USERNAME/Bengali-Keyboard-Mapper.git
 ```
 
-Navigate into the project
+Navigate into the project:
 
 ```bash
 cd Bengali-Keyboard-Mapper
 ```
 
-Install dependencies
+Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run the program
+Run the application:
 
 ```bash
 python bengali_mapper.py
@@ -108,19 +106,15 @@ python bengali_mapper.py
 
 # ⚙️ Configuration
 
-The keyboard layout is defined inside
+The keyboard layout is defined in the `map.txt` file.
 
-```
-map.txt
-```
+Each line follows the format:
 
-Each line follows the format
-
-```
+```text
 EnglishKey:BengaliCharacter
 ```
 
-Example
+Example:
 
 ```text
 a:অ
@@ -130,16 +124,16 @@ d:দ
 e:এ
 ```
 
-The mapping file must be saved using **UTF-8 encoding**.
+> **Note:** Save the file using **UTF-8 encoding** to ensure proper Unicode support.
 
 ---
 
 # ▶️ Usage
 
-1. Start the application.
-2. Begin typing normally.
-3. English keystrokes are automatically replaced with Bengali characters.
-4. Standard **Ctrl** shortcuts continue working.
+1. Run the application.
+2. Type normally using your keyboard.
+3. English characters are automatically translated into Bengali.
+4. Standard **Ctrl** keyboard shortcuts continue to work.
 5. Press **ESC** to terminate the application.
 
 ---
@@ -153,17 +147,17 @@ Keyboard Input
 Global Keyboard Hook
       │
       ▼
-Read Mapping (map.txt)
+Load map.txt
       │
       ▼
 Character Lookup
       │
-      ├── Found
+      ├── Match Found
       │      │
       │      ▼
       │ Output Bengali Character
       │
-      └── Not Found
+      └── No Match
              │
              ▼
       Output Original Character
@@ -176,7 +170,5 @@ Character Lookup
 | Technology | Purpose |
 |------------|---------|
 | 🐍 Python | Core Programming Language |
-| ⌨️ keyboard | Global Keyboard Event Hooking |
-| 🔤 UTF-8 | Unicode Bengali Character Support |
-
-</div>
+| ⌨️ keyboard | Global Keyboard Event Handling |
+| 🔤 UTF-8 | Unicode Bengali Character Encoding |
