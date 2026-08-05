@@ -163,6 +163,6 @@ Character Lookup
 
 | Technology | Purpose |
 |------------|---------|
-| 🐍 Python | Core Programming Language |
-| ⌨️ keyboard | Global Keyboard Event Handling |
-| 🔤 UTF-8 | Unicode Bengali Character Encoding |
+|  Python | Core Programming Language |
+|  keyboard | Global Keyboard Event Handling |
+|  UTF-8 | Unicode Bengali Character Encoding |
